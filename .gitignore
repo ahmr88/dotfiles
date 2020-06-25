@@ -1,0 +1,10 @@
+# vim
+*~
+*.swp
+*.swo
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+*.ipynb

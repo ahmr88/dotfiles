@@ -1,0 +1,11 @@
+#!/bin/sh
+
+
+setxkbmap -option caps:swapescape         # swap escape and caps
+picom &                                   # for transparency
+
+setbg &
+
+dunst &                                   # notifications
+xset r rate 250 50
+unclutter &                               # remove mouse when  idle
